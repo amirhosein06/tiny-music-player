@@ -1,6 +1,6 @@
 # AZ.Player - Tiny Music Player
 
-### deployed on []()
+### deployed on [https://tiny-music-player.vercel.app/](https://tiny-music-player.vercel.app/)
 
 ## screenShots
 
