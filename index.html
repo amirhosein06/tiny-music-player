@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="icon" type="image/x-icon" href="/assets/—Pngtree—music icon_4490698.png">
+    <title>Music Player</title>
+</head>
+<body>
+<div class="container">
+    <div class="left_side">
+        <div class="cover">
+            <img src="" alt="music_cover" id="coverTag">
+        </div>
+    </div>
+    <div class="right_side">
+        <div class="information_box">
+            <h1 id="nameTag"></h1>
+            <h3 id="artistTag"></h3>
+        </div>
+        <div class="controle_box">
+           <div class="range_box">
+            <div class="time_bar"><span id="currentTimeTag">0:33</span><span id="durationTimeTag">4:27</span></div>
+            <div class="main">
+                <input type="range" min="0" max="100" value="0" id="slider">
+                <div id="selector">
+                  <div class="selectBtn"></div>
+                </div>
+                <div id="progressBar"></div>
+              </div>
+           </div>
+            <div class="btn_box">
+                <button id="bacward_btn"><i class="bi bi-skip-start-fill"></i></button>
+                <button id="play_btn"><i class="bi bi-hourglass-split"></i></button>
+                <button id="forward_btn"><i class="bi bi-skip-end-fill"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<audio id="audioTag" src=""></audio>
+</body>
+<script src="js/script.js"></script>
+<script src="data/data.js"></script>
+</html>

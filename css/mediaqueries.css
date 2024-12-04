@@ -1,0 +1,237 @@
+@media screen and (max-width: 1150px) {
+    *{
+        -webkit-tap-highlight-color: transparent !important;
+    }
+    body{
+        align-items: flex-start;
+    }
+    .container{
+        width: 90%;
+        height: 95%;
+        border-radius: 30px;
+        flex-direction: column;
+        padding: 20px;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+    }
+    .left_side{
+        width: 100%;
+        height: 60%;
+    }
+    .right_side{
+        width: 100%;
+        height: 40%;
+    }
+    .cover{
+        border-radius: 40px;
+        border-bottom-left-radius: 2px;
+    }
+    .information_box{
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .information_box h1{
+       height: 70%;
+       font-size: 5rem;
+       display: flex;
+       align-items: center;
+    }
+    .information_box h3{
+        height: 30%;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .controle_box{
+        height: 60%;
+        justify-content: flex-start;
+    }
+    .controle_box .range_box{
+       height: 50%;
+    }
+    .controle_box .btn_box{
+        height: 50%;
+        gap: 40px;
+    }
+    .time_bar{
+        height: 50%;
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+    #play_btn{
+        width: 200px;
+        font-size: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .controle_box button:not(#play_btn){
+        width: 100px;
+        font-size: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+      #slider {
+        height: 6px;
+      }
+      
+      /* Design slider button */
+      #slider::-webkit-slider-thumb {
+        width: 14px;
+        height: 14px;
+      }
+      
+      #selector {
+        height: 10px;
+        bottom: 15px;
+        left: 0%;
+        transform: translateX(-20%);
+      }
+      .selectBtn {
+        height: 30px;
+        width: 30px;
+      }
+      #progressBar {
+        height: 15px;
+      }
+  }
+
+  @media screen and (max-width: 800px) {
+    .container{
+        width: 95%;
+        height: 98%;
+        padding: 20px 20px 10px;
+    }
+    .right_side{
+        padding-bottom: 0px;
+    }
+    .information_box h1{
+       font-size: 4rem;
+    }
+    .information_box h3{
+        font-size: 2rem;
+    }
+
+    .controle_box .btn_box{
+        gap: 40px;
+    }
+    .time_bar{
+        font-size: 25px;
+    }
+    #play_btn{
+        font-size: 130px;
+    }
+    .controle_box button:not(#play_btn){
+        font-size: 60px;
+    }
+      
+      #slider {
+        height: 6px;
+      }
+      
+      /* Design slider button */
+      #slider::-webkit-slider-thumb {
+        width: 14px;
+        height: 14px;
+      }
+      
+      #selector {
+        height: 10px;
+        bottom: 15px;
+        left: 0%;
+        transform: translateX(-20%);
+      }
+      .selectBtn {
+        height: 30px;
+        width: 30px;
+      }
+      #progressBar {
+        height: 15px;
+      }
+  }
+
+  @media screen and (max-width: 550px) {
+    .container{
+        width: 100%;
+        height: 98.5%;
+        padding: 5px;
+    }
+    .left_side{
+        height: 45%;
+    }
+    .right_side{
+        height: 55%;
+    }
+    .cover{
+        border-radius: 20px;
+        border-bottom-left-radius: 2px;
+    }
+    .information_box{
+        height: 40%;
+    }
+    .information_box h1{
+       height: 70%;
+       font-size: 3rem;
+       overflow: hidden;
+       text-overflow: ellipsis !important;
+       white-space: unset;
+    }
+    .information_box h3{
+        height: 30%;
+        font-size: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .controle_box{
+        height: 60%;
+    }
+    .controle_box .range_box{
+       height: 50%;
+    }
+    .controle_box .btn_box{
+        height: 50%;
+        gap: 10px;
+    }
+    .time_bar{
+        height: 50%;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    #play_btn{
+        width: 150px;
+        font-size: 100px;
+    }
+    .controle_box button:not(#play_btn){
+        width: 50px;
+        font-size: 40px;
+    }
+      
+      #slider {
+        height: 4px;
+      }
+      
+      /* Design slider button */
+      #slider::-webkit-slider-thumb {
+        width: 14px;
+        height: 14px;
+      }
+      
+      #selector {
+        height: 10px;
+        bottom: 6px;
+        left: 0%;
+        transform: translateX(-20%);
+      }
+      .selectBtn {
+        height: 20px;
+        width: 20px;
+      }
+      #progressBar {
+        height: 7px;
+      }
+  }
